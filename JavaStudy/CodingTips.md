@@ -11,3 +11,5 @@ for (num : result) {
 }
 ```
 ---
+String.split("[,|+]");
+---
