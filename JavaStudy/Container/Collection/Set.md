@@ -1,9 +1,9 @@
 ## Set
-|set type|order|special|nullptr?|$O(add)O(find)$|
-|-|-|-|-|-|
-|HashSet|no||maximum one|$O(1)O(1)$|
-|LinkedHashSet|yes|insert order|maximum one|$O(1)O(1)$|
-|TreeSet|yes|default acsending|no|$O(log(n))O(log(n))$|
+| set type      | order | special           | nullptr?    | $O(add)O(find)$      |
+| ------------- | ----- | ----------------- | ----------- | -------------------- |
+| HashSet       | no    |                   | maximum one | $O(1)O(1)$           |
+| LinkedHashSet | yes   | insert order      | maximum one | $O(1)O(1)$           |
+| TreeSet       | yes   | default acsending | no          | $O(log(n))O(log(n))$ |
 
 * 通常不能记住元素的添加顺序，与Collection基本相同，没有提供任何额外的方法，只是不允许重复而已。
 * Set的实现类主要有HashSet和TreeSet  

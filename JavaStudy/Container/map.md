@@ -1,11 +1,11 @@
 Map主要用于存储健值对，根据键得到值，因此不允许键重复（若重复则覆盖），但允许值重复。
 
-|map type|ordered|special|nullptr?|$O(insert)O(find)$|
-|-|-|-|-|-|
-|HashMap|no||key&value yes|$O(1)O(1)$|
-|HashTable|no||key&value no|$O(1)O(n^2)$|
-|LinkedHashMap|yes|insert order|key&value yes|$O(1)O(log(n))$|
-|TreeMap|yes|default ascending|key&value yes|$O(1)O(log(n))$|
+| map type      | ordered | special           | nullptr?      | $O(insert)O(find)$ |
+| ------------- | ------- | ----------------- | ------------- | ------------------ |
+| HashMap       | no      |                   | key&value yes | $O(1)O(1)$         |
+| HashTable     | no      |                   | key&value no  | $O(1)O(n^2)$       |
+| LinkedHashMap | yes     | insert order      | key&value yes | $O(1)O(log(n))$    |
+| TreeMap       | yes     | default ascending | key&value yes | $O(1)O(log(n))$    |
 
 
 ## HashMap
