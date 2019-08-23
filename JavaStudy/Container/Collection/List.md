@@ -5,7 +5,7 @@ List是继承于Collection的接口，不能实例化。实例化可以用:
 * `LinkedList`（实现链表），查询慢，增删快。
 * `Vector`（实现动态数组），都慢，被ArrayList替代。长度任意延长。线程安全（同步的类，函数都是synchronized）
 * `Stack`（实现堆栈）继承于Vector，先进后出。
-* `TreeList`  [Intro](exLink1)
+* `TreeList`  [Intro][exLink1]
 
 所以，快速访问ArrayList，快速增删LinkedList，单线程都可以用，多线程只能用同步类Vector
 
